@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BearingManagementApi", "BearingManagementApi\BearingManagementApi.csproj", "{0EACDD5F-C5B1-487E-AF9B-5D410F2BEBFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BearingManagementApi_UnitTests", "BearingManagementApi_UnitTests\BearingManagementApi_UnitTests.csproj", "{6822F460-66B2-4DE5-9653-78FE18538D9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BearingManagementApi_IntegrationTests", "BearingManagementApi_IntegrationTests\BearingManagementApi_IntegrationTests.csproj", "{FB85817E-EFDC-41A8-A7D7-30CC0A31FFE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EACDD5F-C5B1-487E-AF9B-5D410F2BEBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EACDD5F-C5B1-487E-AF9B-5D410F2BEBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EACDD5F-C5B1-487E-AF9B-5D410F2BEBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EACDD5F-C5B1-487E-AF9B-5D410F2BEBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6822F460-66B2-4DE5-9653-78FE18538D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6822F460-66B2-4DE5-9653-78FE18538D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6822F460-66B2-4DE5-9653-78FE18538D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6822F460-66B2-4DE5-9653-78FE18538D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB85817E-EFDC-41A8-A7D7-30CC0A31FFE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB85817E-EFDC-41A8-A7D7-30CC0A31FFE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB85817E-EFDC-41A8-A7D7-30CC0A31FFE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB85817E-EFDC-41A8-A7D7-30CC0A31FFE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
