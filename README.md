@@ -16,7 +16,7 @@ Ensure you have the following installed:
 ### Clone the Repository
 
 ```sh
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/janegarciu/BearingManagementSystem/tree/main)
 cd BearingManagementApi
 ```
 
