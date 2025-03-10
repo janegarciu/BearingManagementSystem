@@ -78,4 +78,4 @@ dotnet test
 
 ### Running with IDE 
 Running with IDE is also possible by opening .sln file in IDE and selecting
-running profile from the section above:![img.png](img.png)
+running profile from the section above.
