@@ -53,10 +53,24 @@ dotnet build
 To run the API locally:
 
 ```sh
-dotnet run --urls "http://localhost:5000;https://localhost:5001"
+dotnet run --urls "https://localhost:7245;http://localhost:5009"
 ```
 
-The API will be available at `https://localhost:5001/swagger/index.html`.
+The API will be available at `https://localhost:7245/swagger/index.html`.
+The API will be available at `http://localhost:5009/swagger/index.html`.
+
+## API Endpoints
+
+### Auth Controller (`/auth`)
+- **POST** `/auth/login` - Authenticates a user and returns a token.
+- **POST** `/auth/register` - Registers a new user.
+
+### Bearings Controller (`/bearings`)
+- **GET** `/bearings` - Retrieves all bearings.
+- **GET** `/bearings/{id}` - Retrieves a specific bearing by ID.
+- **POST** `/bearings` - Creates a new bearing (requires `Name` and `Type`).
+- **PUT** `/bearings/{id}` - Updates an existing bearing.
+- **DELETE** `/bearings/{id}` - Deletes a bearing by ID.
 
 ## Running Tests
 
@@ -78,4 +92,4 @@ dotnet test
 
 ### Running with IDE 
 Running with IDE is also possible by opening .sln file in IDE and selecting
-running profile from the section above:![img.png](img.png)
+running profile from the section above.
